@@ -1,0 +1,128 @@
+
+.home{
+    background-color: rgb(193, 193, 193);
+    background-color: green;
+    text-align: center;
+    min-height: 200px;
+    display: block;
+    margin-inline: auto;
+}
+h1{
+    margin-top: -5px;
+    padding-top: 40px;
+}
+h2{
+    /* border: 2px solid white; */
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+input{
+    width: 20rem;
+    border-radius: 5px;
+    height: 2rem;
+    outline: 0;
+}
+button{
+    border-radius: 5px;
+    background-color: red;
+    border: 0px;
+    color: white;
+    margin-left: 8px;
+}
+button:hover{
+    background-color: rgb(213, 0, 0);
+    padding: 6.5px;
+    margin-left: 6.5px;
+}
+.downloader{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+}
+.links-container{
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem;
+    max-width: 50rem;
+}
+.links{
+    /* max-width: 540px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    margin-top: -1rem;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(0, 4, 39), rgb(4, 33, 255));
+}
+.thumbnail{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin-top: -4rem;
+    color: rgb(255, 230, 0);
+}
+.downloads{
+    display: grid;
+    /* justify-content: center; */
+    place-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.downloads > h2{
+    color: white;
+}
+.download-button{
+    height: 2rem;
+    border-radius: 2px;
+    background-color: rgb(0, 218, 0);
+    color: black;
+}
+.download-button:hover{
+    background-color: rgb(35, 50, 35);
+    color: rgb(183, 196, 220);
+}
+.download-button:focus-visible{
+    background-color: rgb(35, 50, 35);
+    color: rgb(183, 196, 220);
+}
+.support{
+    display: grid;
+    justify-content: center;
+    margin-top: 3rem;
+    /* border: 2px solid white; */
+    margin-inline: auto;
+}
+.images{
+    /* width: 500px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* border: 2px solid white; */
+    column-gap: 3rem;
+}
+h3{
+    color: rgb(215, 215, 215);
+    text-align: center;
+}
+.img{
+    min-width: 100px;
+}
+@media (max-width: 539px){
+    .images{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        row-gap: 1rem;
+    }
+    button{
+        border-radius: 5px;
+        background-color: red;
+        border: 0px;
+        color: white;
+        margin-left: 0.3rem;
+    }
+}
